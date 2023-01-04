@@ -1,0 +1,60 @@
+/* global variable  */
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+:root {
+    --theme-color: #FD841F;
+    --main-color: #E14D2A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* global varibale end  */
+
+
+/* fonts start  */
+
+.text-theme {
+    color: var(--main-color);
+}
+
+.text-hover:hover {
+    color: var(--theme-color);
+}
+
+.ff-theme {
+    font-family: 'Audiowide', cursive;
+}
+
+.bg-theme {
+    background-color: #FD841F;
+}
+
+
+/* fonts end  */
+
+
+/* button  */
+
+.btn-theme {
+    color: white;
+    background-color: #E14D2A;
+    padding: 5px 15px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.btn-theme:hover {
+    background-color: #fa8627;
+    color: white;
+}
+
+
+/* button  */
